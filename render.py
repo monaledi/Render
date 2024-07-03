@@ -29,6 +29,7 @@ graph2 = dcc.Graph(figure=fig2)
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Layout of the app
 app.layout = html.Div([
